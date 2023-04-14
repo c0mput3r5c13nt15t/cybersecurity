@@ -1,3 +1,0 @@
-# Microsoft Account Phishing
-
-TODO
