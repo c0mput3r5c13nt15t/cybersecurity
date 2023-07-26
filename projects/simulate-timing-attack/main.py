@@ -44,8 +44,6 @@ def check_password_secure(user, guess):
 
 def check_password_secure_2(user, guess):
     actual = password_database[user]
-    # Trim or fill up guess to the length of the actual password
-    guess = guess[:len(actual)] + " " * (len(actual) - len(guess))
     # Hash the guess and the actual password
     guess_hash = hash(guess)
     actual_hash = hash(actual)
